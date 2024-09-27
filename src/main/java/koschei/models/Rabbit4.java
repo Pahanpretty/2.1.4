@@ -9,10 +9,6 @@ public class Rabbit4 {
     @Autowired
     private  Duck5 duck;
 
-    @Autowired
-    public void setDuck5(Duck5 duck5) {
-        this.duck = duck5;
-    }
 
     @Override
     public String toString() {

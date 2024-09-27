@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class KoscheiTheDeathless {
-    @Autowired
     private Ocean1 ocean;
 
     public String getRulesByDeth() {
